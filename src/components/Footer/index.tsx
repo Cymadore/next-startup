@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href="/" className="mb-8 inline-block"> {/* 로고 */}
                   <Image
                     src="/images/logo/logo-2.svg"
                     alt="logo"
@@ -236,7 +236,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="absolute right-0 top-14 z-[-1]">
+        <div className="absolute right-0 top-14 z-[-1]">{/* 푸터 구형 이미지 */}
           <svg
             width="55"
             height="99"
@@ -310,7 +310,7 @@ const Footer = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute bottom-24 left-0 z-[-1]">
+        <div className="absolute bottom-24 left-0 z-[-1]"> {/* 푸터 정육면체 이미지 */}
           <svg
             width="79"
             height="94"
